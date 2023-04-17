@@ -1,12 +1,12 @@
 # customrepo
 Custom repo for Hacking
 
-Kali: 
+Kali: Fuck this broken my Qubes debian?
 
 
 <b>sudo echo "deb http://http.kali.org/kali kali-rolling main contrib non-free non-free-firmware" | sudo tee /etc/apt/sources.list</br>
 <b>sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys ED444FF07D8D0BF6</br>
-Fuck this broken my Qubes debian?
+
 
 Parrot: 
 
