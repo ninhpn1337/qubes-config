@@ -32,7 +32,7 @@ nano /etc/apt/sources.list.d
 <b> nano /var/lib/lokinet/lokinet.ini</br>
 <b>exit-node=exit.loki</br>
 
-<b>systemctl enable lokinet</br>
+<b>sudo systemctl enable lokinet</br>
 <b>sudo nano /etc/resolvconf/resolv.conf.d/head</br>
 <b>nameserver 127.3.2.1</br>
 <b>sudo resolvconf -u or sudo dpkg-reconfigure resolvconf</br>
