@@ -27,13 +27,13 @@ nano /etc/apt/sources.list.d
 <b>sudo apt-get update -y</br>
 <b>sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys C4992CE7A88D4262</br>
 
-</br>sudo apt-get update -y</br>
-<br>sudo apt install lokinet-gui resolvconf</br>
-<br> nano /var/lib/lokinet/lokinet.ini</br>
-<br>exit-node=exit.loki</br>
+<b>sudo apt-get update -y</br>
+<b>sudo apt install lokinet-gui resolvconf</br>
+<b> nano /var/lib/lokinet/lokinet.ini</br>
+<b>exit-node=exit.loki</br>
 
-systemctl enable lokinet
-sudo nano /etc/resolvconf/resolv.conf.d/head
-nameserver 127.3.2.1
-sudo resolvconf -u or sudo dpkg-reconfigure resolvconf
--- then just sudo dpkg-reconfigure resolvconf
+<b>systemctl enable lokinet</br>
+<b>sudo nano /etc/resolvconf/resolv.conf.d/head</br>
+<b>nameserver 127.3.2.1</br>
+<b>sudo resolvconf -u or sudo dpkg-reconfigure resolvconf</br>
+<b>-- then just sudo dpkg-reconfigure resolvconf</br>
