@@ -4,7 +4,7 @@ using qubes.3isec.org or ftp.qubes-os.org to download</br>
 
  You then copy the rpm from <appvm> where you downloaded it, to dom0:
 
-[dom0] qvm-run -p <appvm> 'cat /path/to/rpm' > mytemplate.rpm
+[dom0] qvm-run -p 'appvm' 'cat /path/to/rpm' > mytemplate.rpm
 
 Then install the rpm in dom0:
 
