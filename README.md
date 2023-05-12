@@ -47,3 +47,9 @@ nano /etc/apt/sources.list.d
 <b>nameserver 127.3.2.1</br>
 <b>sudo resolvconf -u or sudo dpkg-reconfigure resolvconf</br>
 <b>-- then just sudo dpkg-reconfigure resolvconf</br>
+
+ #Google drive
+ 
+ <b>sudo apt install gnome-control-center gnome-online-accounts</be>
+ <b>XDG_CURRENT_DESKTOP=XFCE gnome-control-center</br>
+ 
