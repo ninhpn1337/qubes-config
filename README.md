@@ -53,3 +53,7 @@ nano /etc/apt/sources.list.d
  <b>sudo apt install gnome-control-center gnome-online-accounts</be>
  <b>XDG_CURRENT_DESKTOP=XFCE gnome-control-center</br>
  
+ #Screensaver
+ 
+ <b>https://forum.qubes-os.org/t/default-screensaver-can-i-change-the-image-back-to-the-old-one/17573/3<b>
+ 
