@@ -59,3 +59,4 @@ nano /etc/apt/sources.list.d
   
   #screenshare
   <b>https://github.com/elliotkillick/qubes-video-companion</br>
+  <b>sudo qubes-dom0-update --enablerepo=qubes-dom0-current-testing qubes-video-companion-dom0</br>
